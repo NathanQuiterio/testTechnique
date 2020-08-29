@@ -10151,7 +10151,7 @@ ul.navbar-nav li .dropdown-menu-main {
 span.search:before {
   content: "";
   display: block;
-  position: relative;
+  position: absolute;
   top: 50%;
   width: 35px;
   height: 35px;
@@ -10317,6 +10317,10 @@ ul.sizeList a.select, ul.sizeList a:hover {
   margin-bottom: 30px;
 }
 
+.insurance {
+  margin-bottom: 60px;
+}
+
 .insurance .insuranceProduct {
   letter-spacing: 0.56px;
   color: #000000;
@@ -10364,7 +10368,6 @@ ul.sizeList a.select, ul.sizeList a:hover {
 #insurance {
   padding-top: 50px;
   padding-bottom: 80px;
-  margin-bottom: 40px;
 }
 
 .insuranceChild {
@@ -10637,6 +10640,20 @@ ul.sizeList a.select, ul.sizeList a:hover {
   background: #fff;
 }
 
+@media (max-width: 1024px) {
+  .slick-prev.slick-arrow {
+    left: 22%;
+  }
+
+  .slick-prev, .slick-next {
+    top: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .slick-next {
+    right: 40px;
+  }
+}
 @media (max-width: 420px) {
   .responsiveSlider {
     display: inherit;
