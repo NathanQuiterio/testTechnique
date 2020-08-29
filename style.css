@@ -10078,7 +10078,7 @@ ul.language-selector {
 }
 
 .dropdown-toggle::after {
-  content: url(../svg/angle-right-solid.svg);
+  content: url(svg/angle-right-solid.svg);
   width: 10px;
   height: 14px;
   border: none;
@@ -10658,6 +10658,10 @@ ul.sizeList a.select, ul.sizeList a:hover {
   .responsiveSlider {
     display: inherit;
   }
+  .navbar-light .navbar-brand {
+    padding-left: 20px;
+    width: 100px;
+  }
 
   .responsiveSliderProduct .slick-slide img {
     width: 320px;
@@ -10753,7 +10757,7 @@ ul.sizeList a.select, ul.sizeList a:hover {
     display: block;
     right: 20px;
     top: -2px;
-    content: url(../svg/angle-right-solid.svg);
+    content: url(svg/angle-right-solid.svg);
     width: 10px;
     rotate: 90deg;
   }
