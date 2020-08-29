@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://use.fontawesome.com/dbf77dbe71.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+  <title>Test technique</title>
+</head>
+
+
+
+</script>
+
+<body>
+
+  <div class="headerTop">
+    <div class="container">
+      <p>Livraison Gratuite en France sur toutes vos commandes</p>
+    </div>
+  </div>
+
+  <header id="header">
+    <div class="header-language">
+
+      <ul class="language-selector">
+
+        <li class="language-item">
+          <a class="language-item-link" href="/#">
+            en
+          </a>
+        </li>
+
+        <li class="language-item">
+          <a class="language-item-link active" href="/#">
+            fr
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </header>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand" href="#"><img src="svg/logo-header.svg" alt="Logo Fenom" title="Fenom" width="120px"
+          height="33.53px" /></a>
+
+      <ul class="navbar-nav quick-links-mobile d-sm-block d-md-none">
+        <li class="nav-item">
+          <img src="svg/interface-user.svg" title="Connexion" width="40px" height="40px" />
+        </li>
+        <li class="nav-item">
+          <img src="svg/interface-shopping-cart.svg" title="Panier" width="40px" height="40px" />
+        </li>
+      </ul>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Nouveautés</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="submenu" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Homme</a>
+            <div class="dropdown-menu main-menu" aria-labelledby="submenu">
+              <a class="dropdown-item dropdown-toggle" href="#" id="1" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Snkrs homme</a>
+              <div class="dropdown-menu drop-right" aria-labelledby="1">
+                <div class="row">
+                  <ul class="col-6">
+                    <li class="itemTitle">Marques</li>
+                    <li><a class="itemList" href="#">Nike</a></li>
+                    <li><a class="itemList" href="#">Adidas</a></li>
+                    <li><a class="itemList" href="#">Reebok</a></li>
+                    <li><a class="itemList" href="#">Puma</a></li>
+                    <li><a class="itemList" href="#">Asics</a></li>
+                    <li><a class="itemList" href="#">Vans</a></li>
+                    <li><a class="itemList" href="#">The north face</a></li>
+                    <li><a class="itemList" href="#">CarhartT </a></li>
+                  </ul>
+                  <ul class="col-6">
+                    <li class="itemTitle">Collections</li>
+                    <li><a class="itemList" href="#">Converse chuck</a></li>
+                    <li><a class="itemList" href="#">Taylor all star 70</a></li>
+                    <li><a class="itemList" href="#">Nike shox</a></li>
+                    <li><a class="itemList" href="#">Nike react sertu</a></li>
+                    <li><a class="itemList" href="#">Nike air max</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="dropdown-item dropdown-toggle" href="#" id="2" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vêtements</a>
+              <div class="dropdown-menu drop-right" aria-labelledby="2">
+                <div class="row">
+                  <ul class="col-12">
+                    <li class="itemTitle">Vêtements</li>
+                    <li><a class="itemList" href="#">Chemises</a></li>
+                    <li><a class="itemList" href="#">Pantalons</a></li>
+                    <li><a class="itemList" href="#">Tee-shirts</a></li>
+                    <li><a class="itemList" href="#">Sweats & pulls</a></li>
+                    <li><a class="itemList" href="#">Vestes & manteaux</a></li>
+                    <li><a class="itemList" href="#">Shorts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="dropdown-item dropdown-toggle" href="#" id="3" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accessoires</a>
+              <div class="dropdown-menu drop-right" aria-labelledby="3">
+                <div class="row">
+                  <ul class="col-12">
+                    <li class="itemTitle">Accessoires</li>
+                    <li><a class="itemList" href="#">Bobs</a></li>
+                    <li><a class="itemList" href="#">Casquettes</a></li>
+                    <li><a class="itemList" href="#">Bonnets</a></li>
+                    <li><a class="itemList" href="#">Sacs à dos</a></li>
+                    <li><a class="itemList" href="#">Sacs bananes</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Femme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Marques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Outlet</a>
+          </li>
+          <li class="nav-item"><a href="#"><span class="search"></span></a></li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <img src="svg/interface-user.svg" title="Connexion" width="40px" height="40px" />
+          </li>
+          <li class="nav-item">
+            <img src="svg/interface-shopping-cart.svg" title="Panier" width="40px" height="40px" />
+            <span class="cart">PANIER (0)</span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div id="wrapper" class="container-fluid">
+    <div class="row">
+
+      <nav id="breadcrumb" class="col-md-12">
+        <ul>
+          <li><a href="/#">Accueil</a></li>
+          <li><a href="/#">Homme</a></li>
+          <li><a href="/#">Skate</a></li>
+          <li class="active"> <a href="/#"> Nike SB Dunk High Pro - Truck-it </a></li>
+        </ul>
+      </nav>
+
+      <div class="col-md-8 imgProduct">
+        <div class="col2 row">
+          <div class="col-md-6"> <img class="img-fluid" title="Nike SB Dunk High Pro - Truck-it"
+              alt="Nike SB Dunk High Pro - Truck-it" src="img/img-chaussure-1.jpg" /> </div>
+          <div class="col-md-6"> <img class="img-fluid" title="Nike SB Dunk High Pro - Truck-it"
+              alt="Nike SB Dunk High Pro - Truck-it" src="img/img-chaussure-1.jpg" /> </div>
+          <div class="col-md-6"> <img class="img-fluid" title="Nike SB Dunk High Pro - Truck-it"
+              alt="Nike SB Dunk High Pro - Truck-it" src="img/img-chaussure-3.jpg" /> </div>
+          <div class="col-md-6"> <img class="img-fluid" title="Nike SB Dunk High Pro - Truck-it"
+              alt="Nike SB Dunk High Pro - Truck-it" src="img/img-chaussure-4.jpg" /> </div>
+          <div class="col-md-6"> <img class="img-fluid" title="Nike SB Dunk High Pro - Truck-it"
+              alt="Nike SB Dunk High Pro - Truck-it" src="img/img-chaussure-5.jpg" /> </div>
+          <div class="col-md-6"> <img class="img-fluid" title="Nike SB Dunk High Pro - Truck-it"
+              alt="Nike SB Dunk High Pro - Truck-it" src="img/img-chaussure-6.jpg" /> </div>
+        </div>
+        <div class="col-12 responsiveSlider">
+
+          <div class="responsiveSliderProduct">
+
+            <div>
+              <img class="img-fluid" src="img/img-chaussure-1.jpg" />
+            </div>
+
+            <div>
+              <img class="img-fluid" src="img/img-chaussure-2.jpg" />
+            </div>
+
+            <div>
+              <img class="img-fluid" src="img/img-chaussure-3.jpg" />
+            </div>
+
+            <div>
+              <img class="img-fluid" src="img/img-chaussure-4.jpg" />
+            </div>
+
+            <div>
+              <img class="img-fluid" src="img/img-chaussure-5.jpg" />
+            </div>
+
+            <div>
+              <img class="img-fluid" src="img/img-chaussure-6.jpg" />
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 descProduct">
+
+        <h1>Nike SB Dunk High Pro - Truck-it</h1>
+
+        <div class="ref">Référence : BQ6826-003</div>
+
+        <div class="price">
+          <span class="oldPrice">80,00€</span>
+          <span class="offer"> -10%</span>
+          <span class="actualPrice">75,00€</span>
+        </div>
+
+        <div class="sizeBlock">
+          <div class="row firstSizeBlock">
+            <div style="text-align: left;" class="col-md-6">
+              TAILLE
+            </div>
+            <div style="text-align: right;" class="col-md-6">
+              <ul class="size">
+                <li class="active"><a href="/#">EU</a></li>
+                <li><a href="/#">US</a></li>
+                <li><a href="/#">UK</a></li>
+                <li><a href="/#">CM</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="sizes">
+            <ul class="sizeList">
+              <a class="select" href="/#">
+                <li>40</li>
+              </a>
+              <a href="/#">
+                <li>41</li>
+              </a>
+              <a href="/#">
+                <li>42</li>
+              </a>
+              <a href="/#">
+                <li>42.5</li>
+              </a>
+              <a href="/#">
+                <li>43</li>
+              </a>
+              <a href="/#">
+                <li>44</li>
+              </a>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="btnBuy">Ajouter au panier</div>
+
+        <p class="infoProduct">Cette Nike SB Dunk High Pro Black/University Gold appartient à la collection Spring 2020.
+        </p>
+
+        <div class="insurance">
+          <div class="insuranceProduct insuranceProduct1">
+            <p>Livraison gratuite en France métropolitaine</p>
+          </div>
+          <div class="insuranceProduct insuranceProduct2">
+            <p>Expédition le jour même jusqu’à 13H</p>
+          </div>
+          <div class="insuranceProduct insuranceProduct3">
+            <p>Paiement 100% sécurisé</p>
+          </div>
+        </div>
+
+        <div class="allProductBrand">
+          <img title="Nike" alt="Nike" src="svg/logo-nike.svg" width="60px" height="31.3px" />
+          <a class="linkAllProductBrand" href="/#">Voir tous les produits Nike</a>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <section id="likeToo">
+    <div class="sliderLikeToo">
+      <div class="row">
+        <div class="col-md-10">
+          <h3>Vous aimerez aussi</h3>
+        </div>
+        <div class="col-md-2">
+          <div class="sliderLikeToo-products-slider-nav">
+            <a href="/#"> TOUT VOIR </a> <span class="sliderLikeToo-products-slider-nav-prev-next"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sliderLikeToo-products-slider">
+      <div>
+        <img class="img-fluid" src="img/carousel1/image4.png" />
+        <div class="brandProductSlider">
+          Nike
+        </div>
+        <div class="modelProductSlider">
+          SB Zoom Blazer Mid - Photon
+        </div>
+        <div class="priceProductSlider">
+          85,00€
+        </div>
+      </div>
+
+      <div>
+        <img class="img-fluid" src="img/carousel1/image1.png" />
+        <div class="brandProductSlider">
+          Nike
+        </div>
+        <div class="modelProductSlider">
+          SB Shane Black/White
+        </div>
+        <div class="priceProductSlider">
+          85,00€
+        </div>
+      </div>
+
+      <div>
+        <img class="img-fluid" src="img/carousel1/image3.png" />
+        <div class="brandProductSlider">
+          Nike
+        </div>
+        <div class="modelProductSlider">
+          SB Air Zoom Bruin Edge
+        </div>
+        <div class="priceProductSlider">
+          85,00€
+        </div>
+      </div>
+
+      <div>
+        <img class="img-fluid" src="img/carousel1/image2.png" />
+        <div class="brandProductSlider">
+          Nike
+        </div>
+        <div class="modelProductSlider">
+          SB Shane - Summit White
+        </div>
+        <div class="priceProductSlider">
+          85,00€
+        </div>
+      </div>
+
+      <div>
+        <img class="img-fluid" src="img/carousel2/image3.png" />
+        <div class="brandProductSlider">
+          Adidas
+        </div>
+        <div class="modelProductSlider">
+          Matchbreak Super - Crystal
+        </div>
+        <div class="priceProductSlider">
+          75,00€
+        </div>
+      </div>
+
+      <div>
+        <img class="img-fluid" src="img/carousel1/image3.png" />
+        <div class="brandProductSlider">
+          Nike
+        </div>
+        <div class="modelProductSlider">
+          SB Air Zoom Bruin Edge
+        </div>
+        <div class="priceProductSlider">
+          75,00€
+        </div>
+      </div>
+
+      <div>
+        <img class="img-fluid" src="img/carousel1/image1.png" />
+        <div class="brandProductSlider">
+          Nike
+        </div>
+        <div class="modelProductSlider">
+          SB Shane Black/White
+        </div>
+        <div class="priceProductSlider">
+          75,00€
+        </div>
+      </div>
+
+      <div>
+        <img class="img-fluid" src="img/carousel1/image2.png" />
+        <div class="brandProductSlider">
+          Nike
+        </div>
+        <div class="modelProductSlider">
+          SB Shane - Summit White
+        </div>
+        <div class="priceProductSlider">
+          75,00€
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+
+
+  <section id="lastArticle">
+    <div class="sliderLastArticle">
+      <div class="row">
+        <div class="col-md-10">
+          <h3>Derniers articles consultés</h3>
+        </div>
+        <div class="col-md-2">
+          <div class="sliderLastArticle-products-slider-nav">
+            <a href="/#"> TOUT VOIR </a> <span class="sliderLastArticle-products-slider-nav-prev-next"></span>
+          </div>
+        </div>
+      </div>
+      <div class="sliderLastArticle-products-slider">
+        <div>
+          <img class="img-fluid" src="img/carousel2/image3.png" />
+          <div class="brandProductSlider">
+            Adidas
+          </div>
+          <div class="modelProductSlider">
+            Matchbreak Super - Crystal
+          </div>
+          <div class="priceProductSlider">
+            75,00€
+          </div>
+        </div>
+
+        <div>
+          <img class="img-fluid" src="img/carousel1/image3.png" />
+          <div class="brandProductSlider">
+            Nike
+          </div>
+          <div class="modelProductSlider">
+            SB Air Zoom Bruin Edge
+          </div>
+          <div class="priceProductSlider">
+            75,00€
+          </div>
+        </div>
+
+        <div>
+          <img class="img-fluid" src="img/carousel1/image1.png" />
+          <div class="brandProductSlider">
+            Nike
+          </div>
+          <div class="modelProductSlider">
+            SB Shane Black/White
+          </div>
+          <div class="priceProductSlider">
+            75,00€
+          </div>
+        </div>
+
+
+
+        <div>
+          <img class="img-fluid" src="img/carousel1/image2.png" />
+          <div class="brandProductSlider">
+            Nike
+          </div>
+          <div class="modelProductSlider">
+            SB Shane - Summit White
+          </div>
+          <div class="priceProductSlider">
+            75,00€
+          </div>
+        </div>
+
+        <div>
+          <img class="img-fluid" src="img/carousel1/image4.png" />
+          <div class="brandProductSlider">
+            Nike
+          </div>
+          <div class="modelProductSlider">
+            SB Zoom Blazer Mid - Photon
+          </div>
+          <div class="priceProductSlider">
+            85,00€
+          </div>
+        </div>
+
+        <div>
+          <img class="img-fluid" src="img/carousel1/image1.png" />
+          <div class="brandProductSlider">
+            Nike
+          </div>
+          <div class="modelProductSlider">
+            SB Shane Black/White
+          </div>
+          <div class="priceProductSlider">
+            85,00€
+          </div>
+        </div>
+
+        <div>
+          <img class="img-fluid" src="img/carousel1/image3.png" />
+          <div class="brandProductSlider">
+            Nike
+          </div>
+          <div class="modelProductSlider">
+            SB Air Zoom Bruin Edge
+          </div>
+          <div class="priceProductSlider">
+            85,00€
+          </div>
+        </div>
+
+        <div>
+          <img class="img-fluid" src="img/carousel1/image2.png" />
+          <div class="brandProductSlider">
+            Nike
+          </div>
+          <div class="modelProductSlider">
+            SB Shane - Summit White
+          </div>
+          <div class="priceProductSlider">
+            85,00€
+          </div>
+        </div>
+
+        <div>
+          <img class="img-fluid" src="img/carousel2/image3.png" />
+          <div class="brandProductSlider">
+            Adidas
+          </div>
+          <div class="modelProductSlider">
+            Matchbreak Super - Crystal
+          </div>
+          <div class="priceProductSlider">
+            75,00€
+          </div>
+        </div>
+
+        <div>
+          <img class="img-fluid" src="img/carousel1/image3.png" />
+          <div class="brandProductSlider">
+            Nike
+          </div>
+          <div class="modelProductSlider">
+            SB Air Zoom Bruin Edge
+          </div>
+          <div class="priceProductSlider">
+            75,00€
+          </div>
+        </div>
+
+        <div>
+          <img class="img-fluid" src="img/carousel1/image1.png" />
+          <div class="brandProductSlider">
+            Nike
+          </div>
+          <div class="modelProductSlider">
+            SB Shane Black/White
+          </div>
+          <div class="priceProductSlider">
+            75,00€
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div id="insurance">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-sm-3 insuranceChild">
+          <img title="Livraison gratuite" alt="Livraison gratuite" src="svg/insurance-2.svg" width="40px"
+            height="40px" />
+          <p class="insuranceChildTitle">Livraison gratuite</p>
+          <p class="insuranceChildTexte">Livraison gratuite <br>en France Métropolitaine</p>
+        </div>
+        <div class="col-6 col-sm-3 insuranceChild">
+          <img title="Paiement sécurisé" alt="Paiement sécurisé" src="svg/insurance-1.svg" width="40px" height="40px" />
+          <p class="insuranceChildTitle">Paiement sécurisé</p>
+          <p class="insuranceChildTexte">Paiement 100% sécurisé<br>Visa, Mastercard, Paypal</p>
+        </div>
+        <div class="col-6 col-sm-3 insuranceChild">
+          <img title="Service client" alt="Service client" src="svg/insurance-4.svg" width="40px" height="40px" />
+          <p class="insuranceChildTitle">Service client</p>
+          <p class="insuranceChildTexte">Une question ? Besoin d’un conseil ? <br><a href="tel:+33184609020">01 84 60 90
+              20</a> ou par <a href=mailto:contact@fenom.fr>mail</a></p>
+        </div>
+        <div class="col-6 col-sm-3 insuranceChild">
+          <img title="Retour" alt="Retour" src="svg/insurance-3.svg" width="40px" height="40px" />
+          <p class="insuranceChildTitle">Retour</p>
+          <p class="insuranceChildTexte">Vous bénéficiez de 15 jours <br> pour changer d’avis</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-2">
+          <div class="menuFooter menu-dropdown">
+            <div class="titleMenuFooter">Shop</div>
+            <ul>
+              <li>Homme</li>
+              <li>Femme</li>
+              <li>Lifestore</li>
+              <li>Marques</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="menuFooter menu-dropdown">
+            <div class="titleMenuFooter">SAV</div>
+            <ul>
+              <li>Livraison</li>
+              <li>Retour</li>
+              <li>Paiement</li>
+              <li>FAQ</li>
+              <li>CGV</li>
+              <li>Infos persos</li>
+              <li>Mentions</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="menuFooter menu-dropdown lastMenu">
+            <div class="titleMenuFooter">À Propos</div>
+            <ul>
+              <li>Features</li>
+              <li>Qui sommes-nous</li>
+              <li>Travailler avec Fenom</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 newsletter">
+          <span class="titleNews">Suivez-nous pour ne rien manquer !</span>
+          <p class="newsDesc">Recevez toutes les infos sur les prochaines sorties, offres et actualités de la boutique
+            Fenom</p>
+
+          <form action="/#">
+            <input type="text" name="email" class="form-control" value="" placeholder="Inscrivez votre email">
+            <input type="submit" value="S'INSCRIRE" name="submitNewsletter" class="btn btnNews">
+          </form>
+
+          <div class="socialMedia">
+            <img title="Facebook" alt="Facebook" src="svg/network-facebook.svg" />
+            <img title="Instagram" alt="Instagram" src="svg/network-instagram.svg" />
+            <img title="Twitter" alt="Twitter" src="svg/network-twitter.svg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="logoFooter">
+        <img title="Fenom Signature" alt="Fenom Signature" width="160px" height="101.69px" src="svg/fenom-footer.svg" />
+      </div>
+
+      <div class="logoPaiement">
+        <img class="img-fluid" title="Moyen de paiement et livraison" alt="Moyen de paiement et livraison" width="400px"
+          height="30px" src="svg/paiement-livraison.svg" />
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
+</html>
